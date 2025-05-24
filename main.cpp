@@ -14,6 +14,6 @@ int main (){
 	p1.hp = 100;
 	p1.coins = 0;
 	p1.atk = 3;
-	cout << p1 << "o progama esta funcionando corretamente!\n";
+	cout << "o progama esta funcionando corretamente!\n";
 	return 0;
 }
