@@ -9,14 +9,11 @@ struct player {
 	int atk;	
 	};
 
-
-
-
 int main (){
 	player p1;
 	p1.hp = 100;
 	p1.coins = 0;
 	p1.atk = 3;
-	cout << "o progama esta funcionando corretamente!\n";
+	cout << p1 << "o progama esta funcionando corretamente!\n";
 	return 0;
 }
