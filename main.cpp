@@ -1,19 +1,13 @@
 #include <iostream>
 #include <string>
-
-using namespace std;
-
-struct player {
-	int hp;
-	int coins; 
-	int atk;	
-	};
-
+#include "header.h"
 int main (){
-	player p1;
-	p1.hp = 100;
-	p1.coins = 0;
-	p1.atk = 3;
-	cout << "o progama esta funcionando corretamente!\n";
+	person player;
+	player.speed = 10;
+	person enemy;
+	enemy.speed = 5;
+	test();
+	battle(player, enemy);
+	std::cout << "o progama esta funcionando corretamente!\n";
 	return 0;
 }
